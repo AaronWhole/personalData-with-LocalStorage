@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anek+Malayalam&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Anek Malayalam', sans-serif;
+}
+
+.container {
+  height: 150vh;
+  width: 1000px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.data {
+  width: 90%;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+.data form {
+  margin-top: 2rem;
+}
+
+.data form div {
+  margin-bottom: 2rem;
+}
+
+.data form div label {
+  display: block;
+  font-weight: bolder;
+}
+
+.data form div input {
+  padding: 5px;
+  font-size: 15px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.data form div input:focus {
+  outline: none;
+}
+
+.data button {
+  width: 100%;
+  font-size: 15px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9896f1;
+  color: white;
+  cursor: pointer;
+}
+
+.data button:hover {
+  background-color: #8594e4;
+}
+
+.data .btn.edit {
+  width: 100%;
+  font-size: 15px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9896f1;
+  color: white;
+  cursor: pointer;
+}
+
+.data .btn.edit:hover {
+  background-color: #8594e4;
+}
+
+.table {
+  width: 90%;
+}
+
+.table table {
+  display: inline-block;
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid #dad8d8;
+}
+
+.table table th {
+  text-align: start;
+  width: 500px;
+}
+
+.table table td {
+  padding: 10px 0px;
+}
+
+.table table button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+thead {
+  border-bottom: 1px solid #dad8d8;
+}
+
+#edit {
+  cursor: pointer;
+}
+
+#delete {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
